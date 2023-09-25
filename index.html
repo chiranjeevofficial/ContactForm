@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form | using HTML, CSS JS & PHP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Send us a Message</header>
+        <form action="#">
+            <div class="dbl-field">
+                <div class="field">
+                    <input name="name" type="text" placeholder="Enter your name">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="field">
+                    <input name="email" type="text" placeholder="Enter your email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <input name="phone" type="text" placeholder="Enter your phone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="field">
+                    <input name="website" type="text" placeholder="Enter your website">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+            <div class="message">
+                <textarea name="message" placeholder="Enter your message"></textarea>
+                <i class="fa-solid fa-message"></i>
+            </div>
+            <div class="button-area">
+                <button type="submit">Send Message</button>
+                <span>Sending your message...</span>
+            </div>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/ff0373ddf5.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
